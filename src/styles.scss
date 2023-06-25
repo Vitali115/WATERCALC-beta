@@ -6,18 +6,17 @@ iframe{
 }
 
 
-@keyframes gradient {
+@keyframes zoom-in-zoom-out {
   0% {
-    background-position: 0% 50%;
+    transform: scale(1);
   }
   50% {
-    background-position: 80% 50%;
+    transform: scale(0.9);
   }
   100% {
-    background-position: 0% 50%;
+    transform: scale(1);
   }
 }
-
 
 .App {
   font-family: "Inter", sans-serif;
