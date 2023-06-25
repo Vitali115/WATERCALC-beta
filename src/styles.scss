@@ -6,6 +6,19 @@ iframe{
 }
 
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 80% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 .App {
   font-family: "Inter", sans-serif;
   text-align: center;
@@ -73,6 +86,7 @@ body{
 .logo {
   width: 200px; 
   height: 200px;
+   animation: zoom-in-zoom-out 1s ease;
 }
 
 .percentage {
