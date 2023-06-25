@@ -69,7 +69,7 @@ const Screen2zero = ({
   goToScreen1,
   goToScreen2,
   goToScreen2uno,
-  goToScreen2due
+  goToScreen2due,
 }) => {
   return (
     <div className="screen">
@@ -546,7 +546,8 @@ const App = () => {
             )}
 
             <img
-              src="https://svgur.com/i/uf4.svg"
+              // src="https://svgur.com/i/uf4.svg"
+              src="https://svgur.com/i/ueQ.svg"
               className="logo-cent"
               alt="logo-vett-black"
               onClick={goToScreen1}
